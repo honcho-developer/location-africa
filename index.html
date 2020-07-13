@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/popper.js/1.212.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Complete Bootsrap Website</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">LocationAfrica</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+               
+                <li class="nav-item active ">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#cities">Cities</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#connect">Connect</a>
+                </li> 
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- image slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/clay-knight-ai1yq01pzwg-unsplash.jpg" alt="" srcset="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Visit Africa</h1>
+                    <h3>Complete Africa cities </h3>
+                    <button type="button" class="btn btn-outline-light ntn-lg">Cities</button>
+                    <button type="button" class="btn btn-primary btn-lg">Explore more</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/simon-berger-aZjw7xI3QAA-unsplash.jpg" alt="" srcset="">
+            </div>
+            <div class="carousel-item">
+                <img src="images/mpumelelo-macu-l_YNobbDYJk-unsplash.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <!-- jumbotrun -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">Location Africa is a collection of 534 neighborhood guides lovingly curated by local creatives in 114 cities around the Africa with more on the way!.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href=""><button type="button" class="btn btn-outline-secondary">Visit Now</button></a>
+
+            </div>
+        </div>
+    </div>
+    <!-- welcome section -->
+    <!-- <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 id="services" class="display-4">DISCOVER THE BEST OF AFRICA.</h1>
+
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">
+                    welcome to my Bootstrap 4 website tutorial!
+                    Bootstrap is a free open-source front-end library
+                    with HTML and CSS based designs.
+                </p>
+            </div>
+        </div>
+    </div> -->
+    <!-- Three column section -->
+    <!-- <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <i class="fas fa-code"></i>
+                <h3>HTML5</h3>
+                <p>Built with the latest version of HTML, HTML5.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <i class="fas fa-bold"></i>
+                <h3>BOOTSTRAP</h3>
+                <p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 ">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>Built with the latest version of CSS, CSS3.</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div> -->
+
+    <!-- Two column section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>DISCOVER THE BEST OF AFRICA...</h2>
+                <p>The columns will automatically stack on top of eachother
+                    when the screen is less than 576px wide.
+                </p>
+                <p>Resize the browser window to see the effect. Responsive web design 
+                    has become more important as the amountbof mobile traffic
+                    now accounts for more than half of total internet traffic
+                </p>
+                <p>It can also display the web page differntly depending on
+                    the screen size or viewing device
+                </p>
+                <br>
+                <a href="" class="btn btn-primary">Learn More</a>
+               
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="images/larry-li-uZqJVqwFxMQ-unsplash.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+    <!-- fixed background -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+
+            </div>
+        </div>
+    </figure>
+
+    <!-- emoji section -->
+    <button class="fun" data-toggle="collapse" data-target="#emoji"><h3>Click for Africa Cuisines</h3></button>
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="images/adalia-botha-FMjoqc4p8WE-unsplash.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="images/jade-aucamp-OMcrCX6wDpU-unsplash.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="images/sincerely-media-bMCxjRT5NFY-unsplash.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="images/sincerely-media-EWuc1wpgdcw-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- meet the team -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 id="cities" class="display-4">Popular places</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/milani-mbombo-kwl_d8awZBA-unsplash.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Lagos</h4>
+                        <p class="card-text">Onos is an Internet enterpreneur with almost
+                            20 years of experience </p>
+                            <a href="" class="btn btn-outline-secondary">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/matthias-mullie-9MUGYaENbHM-unsplash.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Cape Town</h4>
+                        <p class="card-text">Onos is an Internet enterpreneur with almost
+                            20 years of experience </p>
+                            <a href="" class="btn btn-outline-secondary">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/casey-allen-UjpEGHu8uNU-unsplash.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Nairobi</h4>
+                        <p class="card-text">Onos is an Internet enterpreneur with almost
+                            20 years of experience </p>
+                            <a href="" class="btn btn-outline-secondary">Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Two column section -->
+    <!-- <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <img class="img-fluids" src="images/oladimeji-odunsi-tUUmR82pq68-unsplash.jpg" alt="" srcset="">
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <h2 id="about">There's still nothing like Africa</h2>
+                <p>The columns will automatically stack on top of eachother
+                    when the screen is less than 576px wide.
+                </p>
+                <p>Resize the browser window to see the effect. Responsive web design 
+                    has become more important as the amountbof mobile traffic
+                    now accounts for more than half of total internet traffic
+                </p>
+                <br>
+               
+            </div>
+            
+        </div>
+        <hr class="my-4">
+    </div> -->
+
+<!-- connect -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2 id="connect">Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a class="navbar-brand" href="#">LocationAfrica</a>
+                    <hr class="light">
+                    <p>08123424222</p>
+                    <p>web@gmail.com</p>
+                    <p>jakpa rd, street</p>
+                    <p>warri, delta state</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                   <h5>Our hours</h5>
+                   <hr class="light">
+                   <p>Monday: 9am - 5pm</p>
+                   <p>Saturday: 10am - 4pm</p>
+                   <p>Sunday closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                   <h5>Service Area</h5>
+                   <hr class="light">
+                   <p>warri, delta state</p>
+                   <p>warri, delta state</p>
+                   <p>warri, delta state</p>
+                   <p>warri, delta state</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; honcho.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
