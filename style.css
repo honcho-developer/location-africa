@@ -108,6 +108,15 @@ html,body{
     height: 12vh;
     margin-bottom: 2rem;
     color: red;
+    border: none;
+}
+hr.popHr{
+    color: red;
+    width: 65%;
+}
+.popHr{
+    width: 20%;
+    color: red;
 }
 .gif{max-width: 100%;}
 
@@ -165,6 +174,7 @@ hr.light-100{
 
 @media (max-width: 992px){
 
+
     .social a{
         font-size: 4em;
         padding: 2rem;
@@ -198,6 +208,9 @@ hr.light-100{
     .display-4{
         font-size: 200%;
     }
+    .gif{
+        width: 100%;
+    }
     .social a{
         font-size: 2.5em;
         padding: 1.2rem;
@@ -205,6 +218,12 @@ hr.light-100{
 }
 
 @media(max-width: 576px){
+    .display-4{
+        font-size: 120%;
+    }
+    .navbar-brand{
+        font-size: 150% ;
+    }
     .carousel-caption{
         top: 60%;
     }
@@ -223,6 +242,9 @@ hr.light-100{
     }
     .carousel-indicators{
         display: none;
+    }
+    .gif{
+        width: 100%;
     }
     .social a{
         font-size: 2em;
@@ -256,7 +278,7 @@ figure{
     height: 100%;
 }
 #fixed{
-    background-image: url('images/zoe-reeve-xjJd9fu9OkM-unsplash.jpg');
+    background-image: url('images/zoe-reeve-xjJd9fu9OkM-unsplash\ \(1\).jpg');
     position: fixed;
     display: block;
     top: 0;
