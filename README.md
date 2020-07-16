@@ -1,4 +1,4 @@
-Manager-App
+LocationAfrica
 Bootstrap styled app about Africa cities and its people.
 
 ##Table of contest
